@@ -7,6 +7,8 @@ public class intList {
         this.next = next;
     }
 
+
+
 }
 
 
