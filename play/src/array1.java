@@ -9,6 +9,7 @@ public class array1 {
 
         System.out.println(x.name.equals(y.name));
         System.out.println(x.name);
+        System.out.println(school);
 
     }
 
