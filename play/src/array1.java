@@ -8,6 +8,7 @@ public class array1 {
         array1 y = new array1();
 
         System.out.println(x.name.equals(y.name));
+        System.out.println(x.name);
 
     }
 
