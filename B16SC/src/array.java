@@ -2,6 +2,10 @@ import java.util.Arrays;
 
 public class array {
 
+    public static void print(int[] anArray){
+        System.out.println(Arrays.toString(anArray));
+    }
+
 
     public static void main(String[] args) {
 
@@ -9,9 +13,9 @@ public class array {
         nums[0] = 18;
 
 
-        /**
+        /*
          * length of allocated memory boxes, not filled locations are filled with 0.
-         **/
+         */
         System.out.println(nums.length);
         // 3
 
@@ -19,6 +23,10 @@ public class array {
         // memory address: [I@e9e54c2
         System.out.println(Arrays.toString(nums));
         // using java.util.Array class:  [18, 0, 0]
+
+        Arrays.sort(nums);
+        print(nums);
+
 
     }
 }
