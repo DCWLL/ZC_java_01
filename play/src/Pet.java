@@ -1,6 +1,6 @@
 public class Pet {
-    String name = "xyz";
-    static String school = "ddd";
+    String name = "xyzz";
+    static String school = "dddd";
 
     public void setName(String n){
         if ( n.length() > 5){
@@ -11,7 +11,6 @@ public class Pet {
         }
 
     }
-
 
     public static void main(String[] args) {
 
