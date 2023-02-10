@@ -9,7 +9,11 @@ public class array {
         nums[0] = 18;
 
 
+        /**
+         * length of allocated memory boxes, not filled locations are filled with 0.
+         **/
         System.out.println(nums.length);
+        // 3
 
         System.out.println(nums);
         // memory address: [I@e9e54c2
