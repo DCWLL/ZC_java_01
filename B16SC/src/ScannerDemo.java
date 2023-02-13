@@ -1,17 +1,15 @@
-import java.util.Scanner;
-
-public class StdIn_StdOut {
+public class ScannerDemo {
 
 
     public static void main(String[] args) {
 
         // input scanner
-        Scanner input = new Scanner(System.in);
+        java.util.Scanner input = new java.util.Scanner(System.in);
         // read a string
         String line = input.nextLine();
 
         // String scanner
-        Scanner inputString = new Scanner(line);
+        java.util.Scanner inputString = new java.util.Scanner(line);
 
         while (inputString.hasNext()) {
 
