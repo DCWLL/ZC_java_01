@@ -19,6 +19,13 @@ public class LamdaDemo {
         int sum1 = myfunc.method(3, 5);
 
 
+        myLamda printInt = (a, b) -> {
+            System.out.println(a + "===" + b);
+            return 0;
+        } ;
+
+        printInt.method(3, 6);
+
     }
 
 
